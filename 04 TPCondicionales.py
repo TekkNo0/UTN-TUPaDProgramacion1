@@ -95,35 +95,33 @@
 
 
 #-----------EJERCICIO10-------------
-hemisferio = str(input("Ingrese el hemisferio en el que se encuentra (sur o norte): ")).lower()
+#hemisferio = str(input("Ingrese el hemisferio en el que se encuentra (sur o norte): ")).lower()
 
-mes = str(input("Ingrese el mes actual: ")).lower()
-dia = int(input("Ingrese el dia actual: "))
+#mes = str(input("Ingrese el mes actual: ")).lower()
+#dia = int(input("Ingrese el dia actual: "))
 
-if dia > 0 and dia < 31:
-    if hemisferio == "sur":
-        if (mes == "diciembre" and dia >= 21) or mes == "enero" or mes == "febrero" or (mes == "marzo" and dia <= 20):
-            print("Se encuentra en Verano")
-        elif (mes == "marzo" and dia >= 21) or mes == "abril" or mes == "mayo" or (mes == "junio" and dia <= 20):
-            print("Se encuentra en Otoño")
-        elif (mes == "junio" and dia >= 21) or mes == "julio" or mes == "agosto" or (mes == "septiembre" and dia <= 20):
-            print("Se encuentra en Invierno")
-        elif (mes == "septiembre" and dia >= 21) or mes == "octubre" or mes == "noviembre" or (mes == "diciembre" and dia <= 20):
-            print("Se encuentra en Primavera")
-        else:
-            print("Fecha mal dada")
-    
-
-    if hemisferio == "norte":
-        if (mes == "diciembre" and dia >= 21) or mes == "enero" or mes == "febrero" or (mes == "marzo" and dia <= 20):
-            print("Se encuentra en Invierno")
-        elif (mes == "marzo" and dia >= 21) or mes == "abril" or mes == "mayo" or (mes == "junio" and dia <= 20):
-            print("Se encuentra en Primavera")
-        elif (mes == "junio" and dia >= 21) or mes == "julio" or mes == "agosto" or (mes == "septiembre" and dia <= 20):
-            print("Se encuentra en Verano")
-        elif (mes == "septiembre" and dia >= 21) or mes == "octubre" or mes == "noviembre" or (mes == "diciembre" and dia <= 20):
-            print("Se encuentra en Otoño")
-        else:
-            print("Fecha mal dada")
-else:
-        print("Fecha mal dada")
+#if dia > 0 and dia < 31:
+#    if hemisferio == "sur":
+#        if (mes == "diciembre" and dia >= 21) or mes == "enero" or mes == "febrero" or (mes == "marzo" and dia <= 20):
+#            print("Se encuentra en Verano")
+#       elif (mes == "marzo" and dia >= 21) or mes == "abril" or mes == "mayo" or (mes == "junio" and dia <= 20):
+#            print("Se encuentra en Otoño")
+#        elif (mes == "junio" and dia >= 21) or mes == "julio" or mes == "agosto" or (mes == "septiembre" and dia <= 20):
+#            print("Se encuentra en Invierno")
+#        elif (mes == "septiembre" and dia >= 21) or mes == "octubre" or mes == "noviembre" or (mes == "diciembre" and dia <= 20):
+#            print("Se encuentra en Primavera")
+#        else:
+#            print("Fecha mal dada")
+#    if hemisferio == "norte":
+#        if (mes == "diciembre" and dia >= 21) or mes == "enero" or mes == "febrero" or (mes == "marzo" and dia <= 20):
+#            print("Se encuentra en Invierno")
+#        elif (mes == "marzo" and dia >= 21) or mes == "abril" or mes == "mayo" or (mes == "junio" and dia <= 20):
+#            print("Se encuentra en Primavera")
+#        elif (mes == "junio" and dia >= 21) or mes == "julio" or mes == "agosto" or (mes == "septiembre" and dia <= 20):
+#            print("Se encuentra en Verano")
+#        elif (mes == "septiembre" and dia >= 21) or mes == "octubre" or mes == "noviembre" or (mes == "diciembre" and dia <= 20):
+#            print("Se encuentra en Otoño")
+#        else:
+#            print("Fecha mal dada")
+#else:
+#        print("Fecha mal dada")
