@@ -20,10 +20,10 @@ while menu:
             titulo_usuario = input(f"Ingrese el título {i+1}: ").lower()
             titulo.append(titulo_usuario)
             ejemplares.append(0)  
-        print("Títulos ingresados correctamente.\n")
+        print("Títulos ingresados.\n")
     elif opcion == 2:
         if not titulo:
-            print("Primero debe ingresar títulos en la opción (1).\n")
+            print("Primero debe ingresar títulos.\n")
         else:
             titulo_usuario = input("Ingrese el título del libro: ").lower()
             if titulo_usuario in titulo:
