@@ -13,14 +13,21 @@ while menu:
     print("(8)->Actualizar cupos")
     print("(9)->Ver todas las clases")
     print("(10)->Salir\n")
-    opcion = int(input("Ingresa una opción: "))
+    opcion = input("Ingresa una opción: ").strip()
+    if not opcion.isdigit():
+        print("Opcion mal dada")
+        continue
+    opcion=int(opcion)
     
     if opcion == 1:
         cant = int(input("Ingrese cuantas clases va a sumar a la lista: "))
         for i in range(0,cant):
             clases_usuario = str(input(f"Ingrese la clase {i+1}: ")).lower()
-            clases.append(clases_usuario)
-            cupos.append(0)
+            if clases_usuario > "@" and clases_usuario < "{":
+                clases.append(clases_usuario)
+                cupos.append(0)
+            else:
+                print("Nombre incorrecto")
     elif opcion == 2:
         if not clases:
             print("Primero haz la opción 1\n")
@@ -36,6 +43,8 @@ while menu:
             for i in range(0,len(clases)):
                 if cupos[i] > 0:
                     print(f"Clase: {clases[i]}, Cupos: {cupos[i]}")
+                elif 0 not in cupos:
+                    print("Niguna clase tiene cupos")
     elif opcion == 4:
         if not clases:
             print("Primero haz la opción 1\n")
@@ -106,4 +115,4 @@ while menu:
         print("Saliendo del programa...")
         menu = False
     else:
-        print("Opción mal dada")
+        print("Opción fuera de rango")
