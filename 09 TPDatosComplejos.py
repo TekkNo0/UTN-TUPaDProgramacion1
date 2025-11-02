@@ -123,17 +123,32 @@
 #        print("Opción no válida. Por favor, elija del 1 al 4.")
 
 #Ejercicio 9
-agenda = {}
+#genda = {}
 
-agenda[('Lunes', '09:00')] = "Reunión de equipo"
-agenda[('Martes', '11:00')] = "Turno con el dentista"
-agenda[('Miércoles', '18:00')] = "Clase de Python"
-agenda[('Viernes', '21:00')] = "Cena con amigos"
+#genda[('Lunes', '09:00')] = "Reunión de equipo"
+#genda[('Martes', '11:00')] = "Turno con el dentista"
+#agenda[('Miércoles', '18:00')] = "Clase de Python"
+#agenda[('Viernes', '21:00')] = "Cena con amigos"
 
-evento_lunes = agenda.get(('Lunes', '09:00'))
-print(f"El evento del Lunes a las 09:00 es: {evento_lunes}")
+#evento_lunes = agenda.get(('Lunes', '09:00'))
+#print(f"El evento del Lunes a las 09:00 es: {evento_lunes}")
 
-print("\n--- Agenda Completa ---")
-print(agenda)
+#print("\n--- Agenda Completa ---")
+#print(agenda)
 
 #Ejercicio 10
+#paises_capitales = {
+#    'Argentina': 'Buenos Aires',
+#    'España': 'Madrid',
+#    'Francia': 'París',
+#    'Japón': 'Tokio',
+#    'Italia': 'Roma'
+#}
+
+#capitales_paises = {capital: pais for pais, capital in paises_capitales.items()}
+
+#print("--- Diccionario Original (País: Capital) ---")
+#print(paises_capitales)
+
+#print("\n--- Diccionario Invertido (Capital: País) ---")
+#print(capitales_paises)
