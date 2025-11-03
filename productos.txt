@@ -1,0 +1,4 @@
+nombre,precio,cantidad
+Lapicera,200,3
+Cuaderno,300,5
+papel,100,4
